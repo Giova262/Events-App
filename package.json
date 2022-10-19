@@ -8,6 +8,7 @@
   "private": true,
   "scripts": {
     "test": "echo \"No test specified\" && exit 0",
+    "build": "quasar build -m spa",
     "heroku-postbuild": "npm install --only=dev --no-shrinkwrap && npm run build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
