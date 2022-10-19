@@ -1,0 +1,97 @@
+// app global css in SCSS form
+
+@keyframes slideinLeft {
+    from {
+      margin-left: 90%;
+    }
+    to {
+      margin-left: 0px;
+    }
+  }
+
+.fondo {
+  background-image: url("../static/Escena1.jpg");
+  animation: slideinLeft infinite;
+}
+
+.jg-text-9 {
+  font-size: 9px;
+}
+.jg-text-10 {
+  font-size: 10px;
+}
+.jg-text-11 {
+  font-size: 11px;
+}
+.jg-text-12 {
+  font-size: 12px;
+}
+.jg-text-13 {
+  font-size: 13px;
+}
+.jg-text-14 {
+  font-size: 14px;
+}
+.jg-text-15 {
+  font-size: 15px;
+}
+.jg-text-16 {
+  font-size: 16px;
+}
+.jg-text-17 {
+  font-size: 17px;
+}
+.jg-text-18 {
+  font-size: 18px;
+}
+.jg-text-19 {
+  font-size: 19px;
+}
+.jg-text-20 {
+  font-size: 20px;
+}
+.jg-text-21 {
+  font-size: 21px;
+}
+.jg-text-22 {
+  font-size: 22px;
+}
+.jg-text-23 {
+  font-size: 23px;
+}
+.jg-text-24 {
+  font-size: 24px;
+}
+.jg-text-30 {
+  font-size: 30px;
+}
+.jg-text-32 {
+  font-size: 32px;
+}
+.jg-text-34 {
+  font-size: 34px;
+}
+.rotateLeft {
+  transform: rotate(-90deg);
+}
+.rotateRight {
+  transform: rotate(90deg);
+}
+.jg-color-1 {
+  background: #7cc1eb;
+}
+.jg-color-2 {
+  background: #3bd4ae;
+}
+.jg-text-color-1 {
+  color: #84cebf;
+}
+.jg-text-color-2 {
+  color: #003671;
+}
+.jg-text-color-3 {
+  color: #efad4d;
+}
+.jg-text-light {
+  font-weight: 300;
+}
